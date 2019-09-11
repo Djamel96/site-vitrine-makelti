@@ -31,9 +31,27 @@
     min-height: 100%;
   }
 
+  .outsidelink {
+    color: blueviolet;
+
+  }
+
   .w3-bar .w3-button {
     padding: 16px;
   }
+
+  .outlinks{
+    color: orange; 
+    text-decoration-line: none
+  }
+  .outlinks :hover{
+    color: chocolate
+  }
+  .outlinks :visited
+  {
+    color: brown
+  }
+ 
 </style>
 
 <body>
@@ -71,8 +89,8 @@
     <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
     <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">Makelti</a>
     <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
-    <a href="https://play.google.com/store/apps/details?id=smd.corporation.makelti&hl=en"
-          class="w3-bar-item w3-button" target="_blank"><i class="fa fa-cloud-download"></i> Download</a>
+    <a href="https://play.google.com/store/apps/details?id=smd.corporation.makelti&hl=en" class="w3-bar-item w3-button"
+      target="_blank"><i class="fa fa-cloud-download"></i> Download</a>
   </nav>
 
   <!-- Header with full-height image -->
@@ -128,10 +146,9 @@
     <div class="w3-row-padding">
       <div class="w3-col m6">
         <h3>We solve problems !</h3>
-        <p>SMC corporation is a newly created startup incubated in "<a href="https://incubme.com/"
-            target="_blank">Incubme</a>" an
-          international incubator
-          Our mission is to provide IT and management solutions</p>
+        <p>SMC corporation is a newly created startup incubated in <a href="https://incubme.com/" target="_blank"
+          class="outlinks">"Incubme"</a> an
+          international incubator. Our mission is to provide IT and management solutions for companies</p>
         <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
       </div>
       <div class="w3-col m6">
@@ -274,8 +291,11 @@
         <h3>Our work</h3>
         <p>Makelti is an information system to manage catering in companies, eliminate the waste of meals, improve
           service for employees and improve the turnover of the company</p>
-        <p>The system consists of a <a href="https://sonafood.crosstricks.com/login" target="_blank">web dashboard</a> for account and
-          menu management, and a <a href="https://play.google.com/store/apps/details?id=smd.corporation.makelti&hl=en" target="_blank">mobile application </a>for the employees available on Google play store</p>
+        <p>The system consists of a <a href="https://sonafood.crosstricks.com/login" target="_blank"
+          class="outlinks">web dashboard</a> for account and
+          menu management, and a <a href="https://play.google.com/store/apps/details?id=smd.corporation.makelti&hl=en"
+            target="_blank" class="outlinks">mobile application </a>for the
+          employees available on Google play store</p>
 
       </div>
       <div class="w3-col m6">
@@ -290,8 +310,10 @@
 
   <!-- Pricing Section -->
   <div class="w3-container w3-center" style="padding:128px 16px" id="pricing">
-
+    <hr size="30">
+    
     <h3 class="w3-center">Makelti presentation video</h3>
+    
     <iframe width="100%" height="550px" src="https://www.youtube.com/embed/bugnJTn51qs">
       <!--?autoplay=1-->
     </iframe>
@@ -303,7 +325,7 @@
     <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
     <div style="margin-top:48px">
       <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Bouchaoui 3, Algiers</p>
-      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +213559323715</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +213559323715/+213657550396</p>
       <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: smdcorporation.communication@gmail.com
       </p>
       <br>
